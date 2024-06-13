@@ -1,6 +1,6 @@
 .thumbnail{
-    width: 300px;
-    display: block;
+    width: 100%;
+    /* display: block; */
 }
 
 p{
@@ -15,13 +15,7 @@ p{
        display: block; 
 }
 
-.video-preview{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
 
-}
 
 .search-bar{
     display: block;
@@ -39,8 +33,8 @@ p{
 }
 
 .video-info{
-    display: inline-block;
-    width: 200px;
+    /* display: inline-block; */
+    width: 250px;
 }
 
 .video-title{
@@ -69,4 +63,12 @@ p{
 
 .thumbnail-row{
     margin-bottom: 10px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 16px;
+    row-gap: 40px ;
+
 }
