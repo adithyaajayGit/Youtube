@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .thumbnail{
     width: 100%;
     /* display: block; */
@@ -14,6 +18,7 @@ p{
 {
        display: block; 
 }
+
 
 
 
@@ -71,4 +76,27 @@ p{
     column-gap: 16px;
     row-gap: 40px ;
 
+}
+
+.header{
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.left-header{
+    background-color: aliceblue;
+    width: 150px;
+}
+.middle-header{
+    background-color: red;
+        flex: 1;
+        margin-left: 75px;
+        margin-right: 35px;
+        max-width: 300px;
+}
+.right-header{
+    background-color: green;
+    width: 200px;
 }
