@@ -20,3 +20,11 @@
 .search-bar{
     display: block;
 }
+
+.channel-picture{
+    display: inline-block;
+}
+
+.video-info{
+    display: inline-block;
+}
