@@ -87,8 +87,10 @@ p{
 }
 
 .left-header{
-    background-color: aliceblue;
-    width: 150px;
+    /* background-color: aliceblue; */
+    /* width: 150px; */
+    display: flex;
+    align-items: center;
 }
 .middle-header{
     background-color: red;
@@ -100,4 +102,14 @@ p{
 .right-header{
     background-color: green;
     width: 200px;
+}
+
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    height: 20px;
 }
