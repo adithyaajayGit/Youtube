@@ -70,6 +70,7 @@ p{
 
 .thumbnail-row{
     margin-bottom: 10px;
+    position: relative;
 }
 
 .video-grid{
@@ -209,4 +210,14 @@ p{
     top: 55px;
     background-color: white;
     width: 72px;
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right:5px;
+
+
 }
