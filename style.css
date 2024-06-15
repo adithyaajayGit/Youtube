@@ -250,3 +250,14 @@ p{
     border-radius: 10px;
 
 }
+
+
+.sidebar-link{
+    /* background-color: lightgrey; */
+    height: 76px;
+    /* margin-bottom: 1px; */
+}
+
+.sidebar-link:hover{
+    background-color: lightgrey;
+}
