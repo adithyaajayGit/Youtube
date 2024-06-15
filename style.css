@@ -254,11 +254,12 @@ p{
 
 .sidebar-link{
     /* background-color: lightgrey; */
-    height: 76px;
+    height: 120px;
     /* margin-bottom: 1px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .sidebar-link:hover{
@@ -268,6 +269,12 @@ p{
 
 .sidebar-link img{
     height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
 }
 
 
