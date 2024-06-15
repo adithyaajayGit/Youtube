@@ -261,3 +261,11 @@ p{
 .sidebar-link:hover{
     background-color: lightgrey;
 }
+
+
+.sidebar-link img{
+    height: 24px;
+}
+
+
+
