@@ -160,7 +160,7 @@ p{
     opacity: 1;
 }
 
-.search-button,.voice-search-button {
+.search-button,.voice-search-button,.upload-icon-container{
     display: flex;
     justify-content: center;
     align-items: center;
