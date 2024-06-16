@@ -135,6 +135,10 @@ p{
     height: 20px;
 }
 
+
+.search-button .tooltip{
+    position: absolute;
+}
 .search-button{
  height: 40px;
  width: 60px;
@@ -144,6 +148,8 @@ p{
  border-color: rgb(192, 192, 192);
  margin-left: -1px;
  margin-right: 10px;
+
+ position: relative;
 }
 
 .voice-search{
