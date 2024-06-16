@@ -161,6 +161,9 @@ p{
 }
 
 .search-button,.voice-search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -199,7 +202,7 @@ p{
 
 .search-icon{
     height: 28px;
-    margin-top: 4px;
+    /* margin-top: 4px; */
 }
 
 .voice-search-button{
