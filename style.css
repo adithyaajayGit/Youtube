@@ -136,7 +136,7 @@ p{
 }
 
 
-.search-button .tooltip{
+.search-button .tooltip, .voice-search-button .tooltip {
     position: absolute;
     background-color: grey;
     color: white;
@@ -149,11 +149,19 @@ p{
     bottom: -30px;
     opacity: 0;
     transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
 }
 
 
-.search-button:hover .tooltip{
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip
+{
     opacity: 1;
+}
+
+.search-button,.voice-search-button {
+    position: relative;
 }
 
 .search-button{
@@ -166,7 +174,6 @@ p{
  margin-left: -1px;
  margin-right: 10px;
 
- position: relative;
 }
 
 .voice-search{
